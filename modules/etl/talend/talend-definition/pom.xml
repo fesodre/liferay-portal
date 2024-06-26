@@ -65,7 +65,7 @@
 		<dependency>
 			<groupId>org.javassist</groupId>
 			<artifactId>javassist</artifactId>
-			<version>3.18.1-GA</version>
+			<version>3.30.2-GA</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
@@ -220,12 +220,7 @@
 						<phase>process-resources</phase>
 						<configuration>
 							<tasks>
-								<echo
-									append="true"
-									encoding="UTF-8"
-									file="target/classes/META-INF/maven/${project.groupId}/${project.artifactId}/dependencies.txt"
-									message="${project.groupId}:${project.artifactId}:jar:${project.version}:runtime"
-								/>
+								<echo append="true" encoding="UTF-8" file="target/classes/META-INF/maven/${project.groupId}/${project.artifactId}/dependencies.txt" message="${project.groupId}:${project.artifactId}:jar:${project.version}:runtime"/>
 							</tasks>
 						</configuration>
 						<goals>
