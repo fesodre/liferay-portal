@@ -55,7 +55,7 @@
 		<dependency>
 			<groupId>org.glassfish.hk2.external</groupId>
 			<artifactId>javax.inject</artifactId>
-			<version>2.4.0-b34</version>
+			<version>2.4.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
@@ -220,12 +220,7 @@
 						<phase>process-resources</phase>
 						<configuration>
 							<tasks>
-								<echo
-									append="true"
-									encoding="UTF-8"
-									file="target/classes/META-INF/maven/${project.groupId}/${project.artifactId}/dependencies.txt"
-									message="${project.groupId}:${project.artifactId}:jar:${project.version}:runtime"
-								/>
+								<echo append="true" encoding="UTF-8" file="target/classes/META-INF/maven/${project.groupId}/${project.artifactId}/dependencies.txt" message="${project.groupId}:${project.artifactId}:jar:${project.version}:runtime"/>
 							</tasks>
 						</configuration>
 						<goals>
