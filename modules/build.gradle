@@ -117,6 +117,7 @@ for (String gradleVersion in ["6.6.1"]) {
 
 		include "gradle-${gradleVersion}/src/**"
 
+		
 		includeEmptyDirs = false
 		into new File(buildDir, "gradle-${gradleVersion}-sources")
 	}
