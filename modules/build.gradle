@@ -21,6 +21,7 @@ buildscript {
 
 apply plugin: "com.liferay.yarn.defaults.plugin"
 
+
 ext {
 	projectTemplateTokens = [
 		"biz.aQute.bnd.version": "5.2.0",
