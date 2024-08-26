@@ -71,6 +71,7 @@ if (FileUtil.exists(rootProject, "private/yarn.lock")) {
 			}
 		}
 	}
+	
 
 	portalYarnCheckFormat {
 		dependsOn ":private:packageRunCheckFormat"
