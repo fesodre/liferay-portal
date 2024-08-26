@@ -123,6 +123,7 @@ for (String gradleVersion in ["6.6.1"]) {
 
 portalYarnCheckFormat {
 	dependsOn ":packageRunCheckFormat"
+	
 }
 
 portalYarnFormat {
