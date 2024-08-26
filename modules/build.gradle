@@ -40,6 +40,7 @@ ext {
 
 task portalYarnCheckFormat
 task portalYarnFormat
+
 task portalYarnInstall
 
 Set<File> bndPrintJarFiles = null
