@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>2.10.1</version>
+			<version>2.17.2</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -231,4 +231,5 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/liferay/liferay-etl-mulesoft/tree/master</url>
 	</scm>
+	
 </project>
