@@ -64,6 +64,7 @@ if (Boolean.getBoolean("build.bnd.print.enabled")) {
 }
 
 if (FileUtil.exists(rootProject, "private/yarn.lock")) {
+	
 	gradle.beforeProject {
 		if (it.path.equals(":private")) {
 			configure(it) {
