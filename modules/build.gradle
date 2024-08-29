@@ -17,6 +17,7 @@ import org.gradle.util.GUtil
 
 buildscript {
 	apply from: rootProject.file("build-buildscript.gradle"), to: buildscript
+	
 }
 
 apply plugin: "com.liferay.yarn.defaults.plugin"
@@ -40,6 +41,7 @@ ext {
 
 task portalYarnCheckFormat
 task portalYarnFormat
+
 task portalYarnInstall
 
 Set<File> bndPrintJarFiles = null
