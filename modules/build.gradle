@@ -1,4 +1,5 @@
 import com.liferay.gradle.util.FileUtil
+
 import com.liferay.gradle.util.GradleUtil
 import com.liferay.gradle.util.copy.StripPathSegmentsAction
 
@@ -9,10 +10,12 @@ import org.apache.tools.ant.filters.ReplaceTokens
 import org.apache.tools.ant.types.selectors.SelectorUtils
 
 import org.gradle.plugins.ide.api.XmlFileContentMerger
+
 import org.gradle.plugins.ide.eclipse.model.Classpath
 import org.gradle.plugins.ide.eclipse.model.ClasspathEntry
 import org.gradle.plugins.ide.eclipse.model.EclipseClasspath
 import org.gradle.plugins.ide.eclipse.model.EclipseModel
+
 import org.gradle.util.GUtil
 
 buildscript {
@@ -31,6 +34,7 @@ ext {
 		"com.liferay.gradle.plugins.workspace.version": "3.4.47",
 		"com.liferay.portal.tools.bundle.support.version": "3.7.3",
 		"com.liferay.portal.tools.service.builder.version": "1.0.422",
+		
 		"com.liferay.portal.tools.rest.builder.version": "1.0.222",
 		"com.liferay.portal.tools.soy.builder.version": "3.0.4",
 		"com.liferay.portal.tools.theme.builder.version": "1.1.9",
